@@ -24,10 +24,11 @@ h1 {
 }
 
 .otter {
-    width: 100px;
+    font-size: 600px; /* 이 부분을 6배로 키웠습니다! */
     position: absolute;
     animation: swim 20s infinite linear;
     cursor: pointer;
+    line-height: 1; /* 이모지가 잘 보이도록 줄 높이를 조절했습니다. */
 }
 
 /* 첫 번째 수달 */
@@ -71,6 +72,6 @@ h1 {
         font-size: 2em;
     }
     .otter {
-        width: 80px;
+        font-size: 300px; /* 아이폰 화면에서는 3배 크기로 설정했습니다. */
     }
 }
